@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>animated nav</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+<header>
+    <nav>
+        <h1>Animated Nav</h1>
+        <ul>
+            <li><a data-page="home" href="#">Home</a></li>
+            <li><a data-page="projects" href="#">Projects</a></li>
+            <li><a data-page="contact" href="#">Contact</a></li>
+            <div class="bubble"></div>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section data-index="0" class="home">
+        <h2>Home</h2>
+    </section>
+    <section data-index="1" class="projects">
+        <h2>Projects</h2>
+    </section>
+    <section data-index="2" class="contact">
+        <h2>Contact</h2>
+    </section>
+</main>
+        <script src="./scripts.js" async defer></script>
+    </body>
+</html>
